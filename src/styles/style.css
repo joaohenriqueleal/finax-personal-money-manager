@@ -1,2 +1,10 @@
 @charset "UTF-8";
 @import 'tailwindcss';
+
+@import "./animations/anim-popup-end.css";
+@import "./animations/anim-popup.css";
+
+
+@theme {
+    --color-brand: #00D860;
+}

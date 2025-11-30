@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+@layer utilities {
+    @keyframes anim-popup {
+        from { 
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    .anim-popup {
+        animation: anim-popup .3s ease-out forwards;
+    }
+}

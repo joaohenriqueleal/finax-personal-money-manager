@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+
+@utility nav-bar-link {
+    @apply p-3.5 flex items-center text-xl font-bold hover:bg-brand-dark
+        cursor-pointer rounded-xl transition duration-300 hover:shadow
+        gap-2 w-full;
+}

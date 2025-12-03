@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+
+@layer utilities {
+    @keyframes anim-nav-bar{
+        from { width: 0%; }
+        to { width: 50%; }
+    }
+
+    .anim-nav-bar {
+        animation: anim-nav-bar .3s ease-in-out forwards;
+    }
+}

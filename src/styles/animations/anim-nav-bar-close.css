@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+
+@layer utilities {
+    @keyframes anim-nav-bar-close {
+        from { width: 50%; }
+        to { width: 0%; }
+    }
+
+    .anim-nav-bar-close {
+        animation: anim-nav-bar-close .2s ease-in-out forwards;
+    }
+}

@@ -18,7 +18,7 @@ export default function App() {
         <Router>
             <Routes>
                 <Route path="/" element={
-                    authenticated ? <Home /> :
+                    authenticated ? <Home setAuth={setAuthenticated} /> :
                     <Navigate to='autenticacao' />
                 } />
                 <Route path="/autenticacao" element={

@@ -1,10 +1,16 @@
 @charset "UTF-8";
 @import 'tailwindcss';
 
+@import "./animations/anim-nav-bar-close.css";
 @import "./animations/anim-popup-end.css";
+@import "./animations/anim-nav-bar.css";
 @import "./animations/anim-popup.css";
+
+@import "./components/nav-bar-link.css";
 
 
 @theme {
     --color-brand: #00D860;
+    --color-brand-dark: #359B81;
+    --color-brand-darkest: #236857;
 }
